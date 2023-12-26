@@ -1,0 +1,33 @@
+ 
+   div{
+   width:100px;
+   height:150px;
+   position:relative;
+   animation-name:example;
+   animation-duration:5s;
+   
+   }
+ 
+     div{
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        transition: width 3s; height: 5s;
+        }
+        div:hover{
+        width: 250px;
+        height: 350px;
+        border-radius: 250px;
+        
+    }
+    
+   @keyframes example{
+   0%{background-colour:red;left:0px;top:0px;}
+   25%{background-colour:yellow;left;250px;top:0px;}
+   50%{background-colour:pink;left:0px;top:250px;}
+   70%{background-colour:green;left:0px;top:250px;}
+   100%{background-colour:black;left:0px;top:0px;}
+   
+   
+
+   

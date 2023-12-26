@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Transition</title>
+    
+    </head>
+<body>
+    <h1>Transition Effect</h1>
+    <p>However over the element below,to see the transition effect:</p>
+    <div></div>
+    </body>
+    
+    <style>
+     div{
+        width: 100px;
+        height: 200px;
+        background-color: red;
+        transition: width 3s; height: 5s;
+        }
+        div:hover{
+        width: 450px;
+        height: 450px;
+        border-radius: 250px;
+        
+    }
+    </style>
+</html> 
